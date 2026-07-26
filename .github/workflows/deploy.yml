@@ -53,7 +53,7 @@ jobs:
             python manage.py migrate
 
             # Coleta os arquivos estáticos
-            # python manage.py collectstatic --noinput
+            python manage.py collectstatic --noinput
 
             # Reinicia os serviços para aplicar as mudanças
             # (Configuraremos gunicorn e nginx a seguir)
